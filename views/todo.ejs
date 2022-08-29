@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>
+        <%=title%>
+    </title>
+    <link type="text/css" rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <p>Welcome to my To-Do list</p><br><br>
+<div class="todo">
+    <form action="/action" method="POST">
+        <input type="text" name="task" placeholder="Enter your task name here" id="task" required><br><br>
+        <input type="text" name="start" placeholder="Enter start time of task" id="start" required><br><br>
+        <input type="text" name="end" placeholder="Enter end time of task" required id="end"><br><br>
+        <textarea name="description" placeholder="Description here" id="description"></textarea><br><br>
+        <input type="submit" value="SUBMIT" id="submit">
+    </form>
+
+    <h3><div class="ref"><a href="./list">Click Here</a> to go to your todo list</div></h3>
+
+</div>
+</body>
+</html>

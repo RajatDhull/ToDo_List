@@ -1,0 +1,59 @@
+
+p{
+    color: rgb(104, 165, 19);
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: bolder;
+    
+}
+
+form{
+    /* width:220px; */
+    /* display: inline-block; */
+    margin: auto;
+    text-align: center;
+}
+input{
+    /* align-items: center; */
+    text-align: center;
+    margin: auto;
+    width: 40vw;
+    height: 8vh;
+}
+#task{
+    font-size: 2rem;
+    color: rgb(5, 135, 135);
+    background-color: bisque;
+}
+#start{
+    font-size: 1.8rem;
+    color: rgb(11, 105, 148);
+    background-color: rgb(174, 154, 130)
+}
+#end{
+    font-size: 1.8rem;
+    color: rgb(22, 95, 150);
+    background-color: rgb(174, 154, 130);
+}
+#description{
+    font-size: 1rem;
+    color: rgb(4, 79, 20);
+    background-color: rgb(253, 238, 220);
+}
+textarea{
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: auto;
+    width: 40vw;
+    height: 15vh;
+}
+
+#submit{
+    width:8vw;
+    height: 5vh;
+}
+.ref{
+    margin: auto;
+    text-align: center;
+}
